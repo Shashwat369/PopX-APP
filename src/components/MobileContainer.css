@@ -1,0 +1,15 @@
+.mobile-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.mobile-screen {
+    width: 375px;
+    height: 812px;
+    background: #F7F8F9;
+    border: 1px solid #F7F8F9;
+    overflow: hidden;
+}

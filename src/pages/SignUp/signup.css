@@ -1,0 +1,132 @@
+
+
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F7F8F9;
+    height: 812px;
+    width: 375px;
+    background-color: #F7F8F9;
+    padding: 40px 20px 30px; 
+} 
+
+.signup-title {
+    width: 188px;
+    font-family: "Rubik", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #1D2226;
+}
+
+.signup-form {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    flex: 1;
+}
+
+.signup-field {
+    position: relative;
+}
+
+.signup-input {
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    outline: none;
+    background: #FFFFFF;
+    padding: 0 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.signup-label {
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    padding: 0 4px;
+    background: #F7F8F9;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #6C25FF;
+}
+
+.signup-input::placeholder {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #919191;
+    opacity: 1;
+}
+
+.required {
+    color: #DD4A3D;
+}
+
+.agency-section {
+    width: 132px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 6px; 
+}
+
+.agency-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #1D2226;
+}
+
+.agency-options {
+    display: flex;
+    align-items: center;
+    gap: 18px; 
+    margin-top: 6px; 
+}
+
+.agency-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.agency-option input[type="radio"] {
+    width: 22px; 
+    height: 22px; 
+    accent-color: #6C25FF;
+    cursor: pointer;
+}
+
+.agency-option span {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #1D2226;
+}
+
+.signup-button {
+    width: 335px;
+    height: 46px;
+    border: none;
+    border-radius: 6px;
+    background: #6C25FF;
+    color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: auto;
+}
+

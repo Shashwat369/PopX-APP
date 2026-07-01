@@ -1,0 +1,118 @@
+.profile-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #F7F8F9;
+    box-sizing: border-box;
+}
+
+.profile-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.profile-header {
+    width: 100%;
+    height: 68px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000007;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.profile-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #1D2226;
+    text-transform: capitalize;
+}
+
+.profile-user {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 30px 20px 0;
+}
+
+.profile-image {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.camera-icon {
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    right: -2px;
+    bottom: 0;
+}
+
+.camera-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.profile-name {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #1D2226;
+    text-transform: capitalize;
+}
+
+.profile-email {
+    margin-top: 2px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #1D2226;
+}
+
+.profile-description {
+    width: 337px;
+    margin: 22px 20px 0;
+
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+
+    color: #1D2226;
+    text-align: left;
+    text-transform: capitalize;
+
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #CBCBCB;
+}
+
+.profile-divider {
+    display: none;
+}
