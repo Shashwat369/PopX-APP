@@ -6,13 +6,13 @@ A pixel-perfect implementation of the **PopX Mobile UI** using **React.js** and 
 
 ## 🌐 Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 https://pop-x-app-v6qf.vercel.app/
 
 ---
 
 ## 📂 GitHub Repository
 
-🔗 https://github.com/your-username/popx-ui
+🔗 https://github.com/Shashwat369/PopX-APP
 
 ---
 
@@ -78,7 +78,7 @@ src
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/popx-ui.git
+git clone https://github.com/Shashwat369/PopX-APP.git
 ```
 
 Move to the project folder
@@ -155,9 +155,8 @@ npm run preview
 
 **Shashwat Rai**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/Shashwat369
 
-LinkedIn: https://linkedin.com/in/your-linkedin
 
 ---
 
