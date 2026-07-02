@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import Login from "./pages/Login/Login";
-import Signup from "./pages/SignUp/Signup";
+import Signup from "./pages/Signup/Signup";
 import ProfileSettings from "./pages/Profile/ProfileSettings";
 import MobileContainer from "./components/MobileContainer";
 
